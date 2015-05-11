@@ -8,12 +8,6 @@ var GameSchema = new mongoose.Schema({
     unique: true
   },
 
-  gameId: {
-    type: Number,
-    required: true,
-    unique: true
-  },
-
   players: {
     type: Object,
     required: true,
